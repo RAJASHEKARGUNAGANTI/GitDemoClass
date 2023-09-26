@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+  
+
+}
+.content{
+    margin-top: 10%;
+    width: 15cm;
+    height: 15cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: azure;
+    box-shadow: 
+    10px 0 10px -5px rgba(255, 255, 255, 0.5), /* Black shadow on the left */
+    0 10px 10px -5px rgba(255, 255, 255, 0.5);
+}
+h1{
+    font-size: 60px;
+    padding: 50px;
+    background: linear-gradient(45deg, #fb33ab, #800080, #0303c9b7, #38f105b7);
+    -webkit-background-clip: text; /* Use text as a mask for the gradient */
+    color: transparent;
+}
+h2{
+    font-size: 30px;
+    padding: 20px;
+    background: linear-gradient(45deg, #fb33ab, #800080, #0303c9b7, #38f105b7);
+    -webkit-background-clip: text; /* Use text as a mask for the gradient */
+    color: transparent;
+}
+h3{
+    background: linear-gradient(45deg, #fb33ab, #800080, #0303c9b7, #38f105b7);
+    -webkit-background-clip: text; /* Use text as a mask for the gradient */
+    color: transparent;
+}
+
+#confetti{
+    background: #000;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+  }
